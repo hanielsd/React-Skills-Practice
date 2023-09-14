@@ -3,7 +3,7 @@ import EnterLeave from '../components/f-motion/EnterLeave'
 import WhileHoverEffect from '../components/f-motion/Hover'
 import EnterLeaveWithVariants from '../components/f-motion/Variants'
 import RepeatAnimation from '../components/f-motion/Yoyo'
-import QRCode from '../components/qr-code/QRCode'
+import QRCodeGenerator from '../components/qr-code/QRCode'
 class About extends Component {
   constructor(props) {
     super(props)
@@ -33,7 +33,7 @@ class About extends Component {
             </div>
           </div>
           <div className="col-span-2">
-            <QRCode />
+            <QRCodeGenerator />
           </div>
         </div>
 
