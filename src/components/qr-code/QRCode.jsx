@@ -9,7 +9,7 @@ export default function QRCodeGenerator() {
   return (
     <div className="grid grid-cols-2 gap-2">
       <div className="">
-        <div>Referral Link</div>
+        <div className="uppercase">Referral link</div>
         <input
           type="text"
           className="outline-none p-2 border-2 border-transparent border-gray-200 focus:border-blue-600 rounded"
