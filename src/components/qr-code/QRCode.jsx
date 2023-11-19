@@ -12,7 +12,7 @@ export default function QRCodeGenerator() {
         <div className="uppercase">Referral link</div>
         <input
           type="text"
-          className="outline-none p-2 border-2 border-transparent border-gray-200 focus:border-blue-600 rounded"
+          className="outline-none p-2 border-2 border-transparent border-gray-500 focus:border-blue-600 rounded"
           value={referralLink}
           onChange={(e) => setReferralLink(e.target.value)}
         />
