@@ -1,4 +1,5 @@
 import { createContext, useContext, useState } from 'react'
+import AuthWrapper from '../components/auth/AuthWrapper'
 
 const ThemeContext = createContext()
 
@@ -41,6 +42,7 @@ export default function ThemeSetting() {
         <KemponentByTheme />
         <ThemeToggler />
       </div>
+      <AuthWrapper />
     </ThemeProvider>
   )
 }
