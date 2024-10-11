@@ -11,6 +11,7 @@ function Header() {
     { label: 'Advanced Layout', path: 'advanced-layout/movies' },
     { label: 'Comments', path: 'comments' },
     { label: 'B4movies', path: 'b4movies' },
+    { label: 'Theme', path: 'theme-setting' },
   ]
   return (
     <div className="flex space-x-2 items-center border-b-2 border-b-gray-300 pb-2">
