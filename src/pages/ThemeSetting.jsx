@@ -1,5 +1,6 @@
 import { createContext, useContext, useState } from 'react'
 import AuthWrapper from '../components/auth/AuthWrapper'
+import CounterReducer from '../components/reducer/CounterReducer'
 
 const ThemeContext = createContext()
 
@@ -43,6 +44,7 @@ export default function ThemeSetting() {
         <ThemeToggler />
       </div>
       <AuthWrapper />
+      <CounterReducer />
     </ThemeProvider>
   )
 }
